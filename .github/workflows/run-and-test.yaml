@@ -1,6 +1,7 @@
 name: run-and-test
 
 on:
+  workflow_dispatch:
   workflow_call:
   pull_request:
     branches: [ develop, test, acceptance, main ]
