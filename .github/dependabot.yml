@@ -6,7 +6,7 @@ updates:
       # Check for updates to GitHub Actions every week
       interval: "weekly"
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/app" # Location of package manifests
+    directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
     groups:
