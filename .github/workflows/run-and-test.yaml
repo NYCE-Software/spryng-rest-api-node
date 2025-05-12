@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   workflow_call:
   pull_request:
-    branches: [ develop, test, acceptance, main ]
+    branches: [ develop, test, acceptance, main, master ]
 
 jobs:
   checks:
